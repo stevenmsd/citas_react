@@ -5,7 +5,7 @@ const sumar =()=>{
 }
 sumar()
 
-
+/* Se puede declararles variables y mostrar en el front */
 const edad =18;
 /* Todas las funciones deben tener un return */
 /* En el nivel mas alto solo se devuelve un elemento
@@ -29,6 +29,8 @@ const edad =18;
       {edad>=18?  <h1>Eres Mayor de edad</h1>: <h1>Eres menor de edad</h1>}
 
       <h1>{'Hola mundo'.toUpperCase()}</h1>
+
+      <h2>{edad}</h2>
     </div>
   )
 }
